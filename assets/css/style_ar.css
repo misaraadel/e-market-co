@@ -1,0 +1,46 @@
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+.full-nav {
+    left: unset !important;
+    right: 0%;
+}
+
+.full-nav .navbar-nav .nav-item .nav-link {
+    letter-spacing: unset !important;
+}
+
+.full-nav .navbar-nav .nav-item .nav-link::after {
+    left: unset;
+    right: 0px;
+}
+
+.full-nav::after {
+    right: unset !important;
+    left: 0px !important;
+}
+
+.progress-wrap {
+    left: 20px !important;
+    right: unset !important;
+}
+
+.sub-header .content .breadcrumb-data li span::after {
+    left: unset;
+    right: -30px;
+}
+
+.services .image-content img.object-right {
+    -o-object-position: left;
+        object-position: left;
+}
+
+.services .image-content img.object-left {
+    -o-object-position: right;
+        object-position: right;
+}
+
+.what-icons{
+    left: unset !important;
+    right: 10px !important;
+}
